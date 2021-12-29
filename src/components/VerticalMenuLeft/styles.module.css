@@ -1,0 +1,46 @@
+.menu_left{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8rem;
+    display: none;
+    margin-top: 10rem;
+    justify-content:center;
+}
+
+.items_main{
+    font-weight: 700;
+    color: #cccccc;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.items_main li:hover{
+    color: #e67e34;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+    cursor: pointer;
+}
+.icons path:hover{
+    fill: #e67e34;
+}
+
+@media (min-width: 48rem){
+    .menu_left{
+        display: flex;
+    }
+}
+
+@media (min-width: 64rem) and (max-width: 90rem){
+    .menu_left{
+        margin-left: 7rem;
+    }
+}
