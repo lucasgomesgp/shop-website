@@ -22,5 +22,6 @@ export default function VerticalMenuLeft() {
             </li>
         </ul>
       </nav>
+      
   );
 }

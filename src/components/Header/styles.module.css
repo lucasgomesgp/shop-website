@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -16,10 +15,12 @@
 }
 .menu {
   display: flex;
+  align-items: center;
+  padding-right: 8rem;
 }
 
 .menu:nth-child(2) {
-  gap: 6rem;
+  gap: 4rem;
 }
 
 .menu_text {
@@ -53,7 +54,8 @@
 }
 @media (min-width: 64rem) {
   .header {
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 4rem 0 8rem;
   }
   .menu_text {
     display: flex;

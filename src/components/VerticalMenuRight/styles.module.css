@@ -1,0 +1,132 @@
+.central{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    gap: 22rem;
+    flex-wrap: wrap;
+    top: 14rem;
+    right: 12rem;
+}
+
+.title{
+    color: #e67e34;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+}
+
+.price{
+    font-weight: bold;
+}
+
+.prevButton{
+    display: flex;
+    border: none;
+    width: 7rem;
+    height: 3rem;
+    gap: 2rem;
+    align-items: center;
+    position: relative;  
+    background-color: transparent;  
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.prevButton::after{
+    content:"";
+    position: absolute;
+    background-color: #c2c1c1;
+    height: 100%;
+    width: 60%;
+    z-index: -1;
+    left: 0.4rem;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.nextButton{
+    display: flex;
+    border: none;
+    width: 7rem;
+    height: 3rem;
+    gap: 2rem;
+    align-items: center;
+    position: relative;  
+    background-color: transparent;  
+    font-size: 1rem;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+
+.nextButton::after{
+    content:"";
+    position: absolute;
+    background-color: #c2c1c1;
+    height: 100%;
+    width: 50%;
+    z-index: -1;
+    right: 2rem;
+    top: 0;
+}
+
+.size{
+    align-self: center;
+    margin: 1rem 0;
+}
+.buttonsSize{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none; 
+    font-weight: bold;   
+    cursor: pointer;
+}
+
+.buttonsSize:not(:first-child){
+    margin-left: 0.4rem;
+}
+
+.buttonsSize:nth-child(2){
+    border: 0.150rem solid #e67e34;
+}
+.display{
+    position: relative;
+    width: 10rem;
+}
+
+.inptQuant{
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    outline: none;
+    position: relative;
+}
+
+.iconUp{
+    position: absolute;
+    top: 0.4rem;
+    right: 0.2rem;
+    cursor: pointer;
+
+}
+
+.iconDown{
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    cursor: pointer;
+}
+
+.addCart .add{
+    background-color: #e67e34;
+    color: #ffffff;
+    border: none;
+    height: 2rem;
+    width: 10rem;
+    margin-top: 0.8rem;
+}

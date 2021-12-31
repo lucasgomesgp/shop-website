@@ -8,8 +8,8 @@
 }
 
 .items_main{
-    font-weight: 700;
-    color: #cccccc;
+    font-weight: 500;
+    color: #252525;
     display: flex;
     flex-direction: column;
     list-style: none;
